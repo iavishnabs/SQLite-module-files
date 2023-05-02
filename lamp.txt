@@ -1,0 +1,36 @@
+﻿To install and configure a LAMP stack on Linux Mint, you can follow these steps: 1.Install Apache web server:
+• sudo apt update
+• sudo apt install apache2
+• sudo apt install mysql-server
+•
+• sudo mysql_secure_installation
+•
+• sudo apt install php libapache2-mod-php php-mysql
+•
+• sudo systemctl restart apache2
+
+
+• sudo apt update
+• sudo apt install apache2
+• sudo apt install mysql-server
+• sudo mysql_secure_installation
+• sudo apt install php libapache2-mod-php php-mysql
+• sudo systemctl restart apache2
+• sudo systemctl status mysql
+• sudo ufw status
+• sudo ufw enable
+• sudo ufw app list
+• sudo ufw allow in "Apache Full"
+• sudo apt install mysql-server
+• sudo mysql
+• sudo apt install php libapache2-mod-php php-mysql
+• php -v
+• sudo nano /var/www/html/info.php
+<?php
+phpinfo ();
+?>
+
+
+Press CTRL + X to save and close the file. Press y and ENTER to confirm. localhost/info.php
+• sudo apt-get install phpmyadmin
+• history
